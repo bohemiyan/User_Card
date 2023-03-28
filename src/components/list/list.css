@@ -1,0 +1,27 @@
+
+
+   .userRibbon {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    width: 8cm;
+    height: .7cm;
+    border: 1px solid black;
+    padding: 0.5cm;
+    border-radius: .3cm; /* Set border radius to half the height of the ribbon */
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Set gradient background */
+  }
+  
+  .userRibbon img {
+    width: 1.5cm;
+    height: 1.5cm;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 0.5cm;
+  }
+  
+  .userRibbon p {
+    font-size: 1.2em;
+    color: white; /* Set font color to white for better contrast */
+  }
+  
